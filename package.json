@@ -1,0 +1,34 @@
+{
+  "name": "pasteles",
+  "version": "1.0.0",
+  "description": "proyecto de muestra de productos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp dev",
+    "webp": "gulp convertToWebP"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ByMarquez/Pasteles.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "GULP",
+    "IMAGE"
+  ],
+  "author": "Jesus Marquez @ByMarquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ByMarquez/Pasteles/issues"
+  },
+  "homepage": "https://github.com/ByMarquez/Pasteles#readme",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.77.8",
+    "sharp": "^0.29.3"
+  }
+}

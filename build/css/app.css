@@ -1,0 +1,167 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.8rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+a {
+  all: unset;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+p {
+  text-align: justify;
+}
+
+.container__nav {
+  background-color: #F4574D;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container__nav h1 {
+  font-size: 2.8rem;
+  padding: 2rem;
+  color: white;
+}
+.container__nav div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.container__nav div a {
+  padding: 3rem;
+  color: white;
+}
+.container__nav div a:hover {
+  background-color: #FFAEAD;
+  color: black;
+}
+
+.container__big {
+  display: flex;
+  justify-content: center;
+}
+
+.container__small {
+  width: 90%;
+  text-align: center;
+  -webkit-box-shadow: 0px 12px 7px 10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 12px 7px 10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 12px 7px 10px rgba(0, 0, 0, 0.75);
+}
+
+.img__text h1 {
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+
+.container__product {
+  margin-top: 2rem;
+}
+.container__product h2 {
+  margin: 0;
+  padding: 0.5rem;
+}
+.container__product img {
+  padding: 0.5rem;
+}
+.container__product p {
+  margin: 0;
+  padding: 0.5rem;
+}
+.container__product p:last-child {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 200px;
+}
+
+@media (min-width: 768px) {
+  .img__text h1 {
+    font-size: 3rem;
+  }
+  .img__text svg {
+    min-width: 10rem;
+  }
+  .name__cake {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+  }
+  .container__products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  .container__product {
+    align-items: center;
+  }
+  img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 200px;
+  }
+  .container__nav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .container__nav h1 {
+    font-size: 3.8rem;
+  }
+  .container__nav div {
+    display: flex;
+    flex-direction: row;
+  }
+  .container__nav a {
+    padding: 2.8rem;
+  }
+  .container__small {
+    width: 70%;
+  }
+}
+#map {
+  height: 600px;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.leaflet {
+  margin-bottom: 3rem;
+}
+
+.container__about p {
+  margin: 2rem 3rem;
+}
+.container__about p a {
+  text-decoration: underline;
+}

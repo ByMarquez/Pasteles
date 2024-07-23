@@ -1,0 +1,30 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 3.8rem;
+    margin: 0;
+}
+h2{
+    font-size: 2.8rem;
+}
+a{
+    all: unset;
+}
+a:hover{
+    cursor: pointer;
+}
+p{
+    text-align: justify;
+}
